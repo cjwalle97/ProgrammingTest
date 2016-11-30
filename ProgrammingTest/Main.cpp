@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 float sum5(float a, float b, float c)
 {
 	float sum = a + b + c;
@@ -31,21 +32,25 @@ void reverseString(char string[])
 	}
 }
 	
-class Cat
-{
-private:
-	char m_Name;
-public:
-	Cat() {};
-	void NameMe(char a) {
-		a = m_Name;
-	}
-};
-
-//int MostSeen(int Array[], int size)
+//class Cat
 //{
-//	return 0;
-//}
+//private:
+//	char m_Name;
+//public:
+//	Cat() {};
+//	void NameMe(char a) {
+//		a = m_Name;
+//	}
+//};
+
+int MostSeen(int Array[], int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		int count = 0;
+		
+	}
+}
 
 int main()
 {
@@ -54,8 +59,4 @@ int main()
 	evenArray(Array, 4);
 	char string[7] = "philip";
 	reverseString(string);
-	Cat Array[26]
-	{
-
-	}
 }
